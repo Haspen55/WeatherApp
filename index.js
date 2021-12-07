@@ -1,7 +1,7 @@
 
 
 
-//façon n°1----------->
+//way 1----------->
 function inserer(data) {
 
 
@@ -14,18 +14,7 @@ celcius = (data.main.temp) -273,15;
     $('#span2').css('display','inline')
 
  }
- /*
-   function chuckNorris(data) {
-    // i = un chiffre random entre 0 et 619
-    i = Math.floor(Math.random() * 619) + 0;
-    console.log(i);
-       chukeJoke = data.value[i].joke;
-       console.log(chukeJoke)
 
-       $('div').html(chukeJoke)
-   }
-
-  */
 
 document.addEventListener("keydown",function presseBoutton(e) {
 key = e.keyCode;
@@ -67,19 +56,7 @@ $('#span1').text('desolé cette ville n\'existe pas  ')
 
 
 })
-    /*
-    $('#soumettre').click(function () {
-      url2 = 'http://api.icndb.com/jokes/';
-      $.get(url2,chuckNorris).done(function () {
-
-      }).fail(function () {
-         console.log('qquechose a plante ')
-      }).always(function () {
-
-      })
-    })
-
-     */
+    
 }
 /*
  façon n°2 ----------->
